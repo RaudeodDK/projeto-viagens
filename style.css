@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.texto-pesquisa{
+    color: darkgrey;
+}
+
+.menu-lista{
+    display: flex;
+    width: 500px;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 11px;
+    
+}
+li a{
+    
+    text-decoration: none;
+    color: black;
+
+}
+li {
+    list-style: none;
+}
+.caixa-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid orange;
+    background-color: orange;
+   border-radius: 15px;
+}
