@@ -3,9 +3,10 @@
     padding: 0;
 }
 .menu{ 
+    
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding: 10px;
 }
@@ -18,11 +19,12 @@
     width: 500px;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     font-size: 11px;
     
 }
 li a{
-    
+    font-family: arial;
     text-decoration: none;
     color: black;
 
@@ -34,8 +36,146 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10px 15px;
+    border: 1px solid #EB662B;
+    background-color: #EB662B;
+    border-radius: 200px;
+}
+.texto-login{
+    color: white;
+    font-size: 12px;
+
+}
+
+.banner{
+    background-image: url("./assets/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 1800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.section-center{
+display: flex;
+justify-content: center; 
+
+}
+
+.caixa-titulo-banner{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.titulo-banner{
+    color: white;
+    font-size: 40px;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 60px;
     padding: 10px;
-    border: 1px solid orange;
-    background-color: orange;
-   border-radius: 15px;
+}
+.texto-banner{
+    color: white;
+    font-size: 15px;
+    font-family: arial;
+    padding: 10px;
+}
+.opcoes-pesquisa{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px  ;
+    border-radius: 15px;
+}
+.quadrado{
+    border: 1px solid lightgrey;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.onde{
+    display: flex;
+    flex-direction: row;    
+}
+.quando{
+    display: flex;
+    flex-direction: row;    
+}
+.tipo{
+    display: flex;
+    flex-direction: row;    
+}
+.caixa-subtexto-banner{
+    padding: 10px;
+}
+.btn-search{
+    background-color: #EB662B;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 130px;
+
+}
+
+
+.caixa-elementos-banner{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.titulo-primario{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    padding: 50px 250px ;
+    
+
+}
+.bi{
+    color: #EB662B;
+    font-size: 40px;
+}
+.titulo-qualidades{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 14px;
+}
+.texto-qualidades{
+    font-family: Arial;
+    font-size: 12px;
+    width: 200px;
+}
+
+.caixa-qualidades{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+.flexibilidade, .experiencias, .qualidade, .premios{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
 }
