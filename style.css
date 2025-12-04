@@ -144,11 +144,12 @@ justify-content: center;
 }
 
 .titulo-primario{
+    
     font-family: Arial;
     font-weight: bold;
     font-size: 25px;
     display: flex;
-    padding: 50px 250px ;
+
     
 
 }
@@ -165,17 +166,156 @@ justify-content: center;
     font-family: Arial;
     font-size: 12px;
     width: 200px;
+    display: flex;
+    justify-content: center;
 }
 
 .caixa-qualidades{
+    margin-top: 50px ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+.caixa-destinos{
+    margin-top: 50px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.destinos{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+}
+.img-destinos{
+    width: 130px;
+    height: 130px;
+}
+.section-mid{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+   
+}
+.section-low{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dercerto{
+    width: 1600px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.deucerto{
+    width: 1600px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-popular{
+    border: 1px solid lightgray;
+    width: 300px;
+    height: 380px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 10px;
+}
+.img-popular{
+    width: 300px;
+    height: 200px;
+}
+
+.section-bottom{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.continuacerto{
+    width: 1600px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+hr{
+    display: flex;
+    justify-content: center;
+    width: 270px;
+    
+}
+
+.subtexo-card{
+    font-family: arial;
+    font-size: 12px;
+}
+
+.bottom-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.caixa-texto-card{
+    height: 200px;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    padding: 50px;
-}
-.flexibilidade, .experiencias, .qualidade, .premios{
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
     flex-direction: column;
+    align-items: center;
+
+}
+
+.localidade-card{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+
+}
+.preco-card{
+    font-weight: bold;
+    font-family: arial;
+    font-size: 14px;
+}
+.caixa-preco{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+.caixa-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    width: 1600px;
+}
+.titulo-card{
+    font-family: arial;
+    font-size: 16px;
+    width: 290px;
+    font-weight: bold;
+
 }
