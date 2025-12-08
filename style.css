@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+@font-face {
+    font-family: inter;
+    src: url("./assets/fonte/Inter-VariableFont_opsz\,wght.ttf");
+}       
 .menu{ 
     
     display: flex;
@@ -40,7 +44,7 @@
     
 }
 li a{
-    font-family: arial;
+    font-family: inter;
     text-decoration: none;
     color: black;
 
@@ -66,7 +70,7 @@ li {
 }
 
 .banner{
-    background-image: url("./assets/banner.png");
+    background-image: url("./assets/img/banner.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 700px;
@@ -95,7 +99,7 @@ justify-content: center;
 .titulo-banner{
     color: white;
     font-size: 40px;
-    font-family: arial;
+    font-family: inter;
     font-weight: bold;
     font-size: 60px;
     padding: 10px;
@@ -103,7 +107,7 @@ justify-content: center;
 .texto-banner{
     color: white;
     font-size: 15px;
-    font-family: arial;
+    font-family: inter;
     padding: 10px;
 }
 .opcoes-pesquisa{
@@ -163,7 +167,7 @@ justify-content: center;
 
 .titulo-primario{
     
-    font-family: Arial;
+    font-family: inter;
     font-weight: bold;
     font-size: 25px;
     display: flex;
@@ -176,12 +180,12 @@ justify-content: center;
     font-size: 40px;
 }
 .titulo-qualidades{
-    font-family: Arial;
+    font-family: inter;
     font-weight: bold;
     font-size: 14px;
 }
 .texto-qualidades{
-    font-family: Arial;
+    font-family: inter;
     font-size: 12px;
     width: 200px;
     display: flex;
@@ -196,17 +200,22 @@ justify-content: center;
     gap: 50px;
 }
 .caixa-destinos{
+    background-color: #EB662B;
     margin-top: 50px ;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width: 1290px;
+    gap: 40px;
+
 }
 .destinos{
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 135px;
+    height: 200px;
     gap: 5px;
     
 }
@@ -232,14 +241,14 @@ justify-content: center;
 }
 
 .dercerto{
-    width: 1600px;
+    width: 1320px;
     display: flex;
     align-items: start;
     justify-content: center;
     flex-direction: column;
 }
 .deucerto{
-    width: 1600px;
+    width: 1320px;
     display: flex;
     align-items: start;
     justify-content: center;
@@ -270,7 +279,8 @@ justify-content: center;
 }
 
 .continuacerto{
-    width: 1600px;
+    background-color: #EB662B;
+    width: 1320px;
     display: flex;
     align-items: start;
     justify-content: center;
@@ -285,7 +295,7 @@ hr{
 }
 
 .subtexo-card{
-    font-family: arial;
+    font-family: inter;
     font-size: 12px;
 }
 
@@ -314,7 +324,7 @@ hr{
 }
 .preco-card{
     font-weight: bold;
-    font-family: arial;
+    font-family: inter;
     font-size: 14px;
 }
 .caixa-preco{
@@ -324,25 +334,116 @@ hr{
     gap: 4px;
 }
 .caixa-cards{
+    background-color: blue;
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 30px;
-    width: 1600px;
+    width: 1320px;
     flex-wrap: wrap;
 }
 .titulo-card{
-    font-family: arial;
+    font-family: inter;
     font-size: 16px;
     width: 290px;
     font-weight: bold;
 
 }
 .texto-localidade-card{
-    font-family: arial;
+    font-family: inter;
     font-size: 12px;
     color: darkgrey;
     width: 110px;
     display: flex;
     justify-content: center;
+}
+.section-desconto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.caixa-descontos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.caixa-titulo-descontos{
+    width: 350px;
+}
+.texto-titulo-descontos{
+    font-family: inter;
+    font-size: 40px;
+    font-weight: bold;
+}
+.desconto-span{
+    font-family: inter;
+    font-size: 40px;
+    color: #EB662B;
+}
+.subtitulo-descontos{
+    font-family: inter;
+    font-size: 15px;
+}
+.btn-descontos{
+    border: none;
+    background-color: #EB662B;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.titulo-pesquisa{
+    font-family: inter;
+    font-size: 14px;
+}
+.texto-pesquisa{
+    font-family: inter;
+    color: darkgrey;
+    font-size: 12px;
+}
+.texto-pesquisa-data{
+    font-family: inter;
+    font-size: 12px;
+}
+.caixa-descontos{
+    background-image: url("./assets/img/banner-descontos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1530px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 15px;
+}
+.textos-desconto{
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+}
+.caixa-img-descontos{
+    width: 750px;
+    height: 600px;
+}
+.img-descontos{
+    width: 750px;
+    height: 600px;
+    border-radius: 15px;
+}
+.veja-tudo{
+    font-family: inter;
+    font-size: 15px;
+    color: #05073C;
+}
+.estrutura-titulo{
+    width: 1320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
