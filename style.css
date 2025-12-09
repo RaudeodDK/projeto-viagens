@@ -34,7 +34,7 @@
     align-items: center;
 }
 
-.menu-lista{
+.menu-lista{ 
     display: flex;
     width: 500px;
     flex-direction: row;
@@ -177,17 +177,19 @@ justify-content: center;
 }
 .bi{
     color: #EB662B;
-    font-size: 40px;
+    font-size: 60px;
 }
 .titulo-qualidades{
+    
     font-family: inter;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 25px;
 }
 .texto-qualidades{
+    margin-top: 15px;
     font-family: inter;
-    font-size: 12px;
-    width: 200px;
+    font-size: 17px;
+    width: 250px;
     display: flex;
     justify-content: center;
 }
@@ -197,16 +199,15 @@ justify-content: center;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 50px;
+    gap: 80px;
 }
 .caixa-destinos{
-    background-color: #EB662B;
     margin-top: 50px ;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    width: 1290px;
-    gap: 40px;
+    justify-content: space-between;
+    width: 1320px;
+
 
 }
 .destinos{
@@ -219,9 +220,15 @@ justify-content: center;
     gap: 5px;
     
 }
+
 .img-destinos{
     width: 130px;
     height: 130px;
+}
+.img-destinos:hover{
+    width: 150px;
+    height: 150px;
+    transition: all 0.1s ease-in-out;
 }
 .section-mid{
     margin-top: 80px;
@@ -233,6 +240,7 @@ justify-content: center;
    
 }
 .section-low{
+    
     margin-top: 80px;
     display: flex;
     justify-content: center;
@@ -270,7 +278,8 @@ justify-content: center;
     height: 200px;
 }
 
-.section-bottom{
+.section-bottom{ 
+    
     margin-top: 80px;
     display: flex;
     justify-content: center;
@@ -279,7 +288,7 @@ justify-content: center;
 }
 
 .continuacerto{
-    background-color: #EB662B;
+    
     width: 1320px;
     display: flex;
     align-items: start;
@@ -334,11 +343,10 @@ hr{
     gap: 4px;
 }
 .caixa-cards{
-    background-color: blue;
+    
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 30px;
+    gap: 5px;
     width: 1320px;
     flex-wrap: wrap;
 }
@@ -417,6 +425,7 @@ hr{
     width: 1530px;
     height: 600px;
     display: flex;
+    margin-top: 150px;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
@@ -446,4 +455,32 @@ hr{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+}
+.section-reviews{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.caixa-reviews{
+    background-image: url("./assets/img/banner-reviews.png");
+    width: 1320px;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-reviews{
+    font-family: inter;
+    font-size: 30px;
+    font-weight: bold;
+}
+.texto-reviews{
+    font-family: inter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
