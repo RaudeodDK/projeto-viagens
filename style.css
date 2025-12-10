@@ -668,7 +668,7 @@ footer{
     justify-content: center;
 }
 .caixa-footer{
-    background-image: url(./assets/img/footer.png);
+    background-image: url("./assets/img/footer.png");
     background-repeat: repeat;
     background-size: cover;
     width: 1800px;
@@ -688,11 +688,52 @@ hr{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
+    width: 1320px;
 }
 .caixa-footer-numero{
     display: flex;
     justify-content: space-around;
     font-family: inter;
     width: 1290px;
+    font-weight: bold;
+    font-size: 19px;
+}
+.numero{
+    color: #EB662B;
+}
+.contact{
+    font-family: inter;
+}
+.titulo-info-footer{
+    font-family: inter;
+    font-size: 19px;
+    font-weight: bold;
+}
+.texto-info-footer-contact{
+    font-family: inter;
+    font-size: 14px;
+   
+}
+.texto-info-footer{
+    font-family: inter;
+    font-size: 14px;
+}
+.company{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.support{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.caixa-pesquisa-email{
+    width: 300px;
+    height: 60px;
 }
