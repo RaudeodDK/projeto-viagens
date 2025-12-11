@@ -66,7 +66,11 @@ li {
     cursor: pointer;
     padding: 10px 15px;
     border-radius: 200px;
-
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.texto-login:hover{
+    transform: scale(110%);
 }
 
 .banner{
@@ -153,6 +157,11 @@ justify-content: center;
     justify-content: center;
     height: 60px;
     width: 130px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.btn-search:hover{
+    transform: scale(110%);
 
 }
 
@@ -224,11 +233,11 @@ justify-content: center;
 .img-destinos{
     width: 130px;
     height: 130px;
+    transition: all 0.2s ease-in-out
 }
 .img-destinos:hover{
     width: 150px;
     height: 150px;
-    transition: all 0.1s ease-in-out;
 }
 .section-mid{
     margin-top: 80px;
@@ -236,9 +245,8 @@ justify-content: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
-   
 }
+
 .section-low{
     
     margin-top: 80px;
@@ -272,6 +280,11 @@ justify-content: center;
     flex-direction: column;
     justify-content: space-between;
     padding: 10px;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+.card-popular:hover{
+    transform: scale(105%);
 }
 .img-popular{
     width: 300px;
@@ -403,6 +416,11 @@ hr{
     font-size: 15px;
     padding: 10px;
     margin-top: 30px;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.btn-descontos:hover{
+    transform: scale(110%);
 }
 .titulo-pesquisa{
     font-family: inter;
@@ -534,6 +552,11 @@ hr{
     flex-direction: column;
     justify-content: space-between;
     padding: 10px;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+.card-popular-top:hover{
+    transform: scale(110%);
 }
 
 .grupo-card-top{
@@ -602,10 +625,11 @@ hr{
 }
 .caixa-pesquisa-telefone{
     width: 350px;
-    height: 60px;
+    height: 30px;
     border-radius: 12px;
     border: none;
     margin-top: 15px; 
+    padding: 15px;
 }
 .btn-telefone{
     width: 106px;
@@ -613,13 +637,20 @@ hr{
     border-radius: 12px;
     border: none;
     color: #4A43C4;
+    cursor: pointer;
+    background-color: white;
+}
+.btn-telefone:hover{
+    transition: all 0,5s ease-in-out;
+    background-color: rgb(219, 219, 219);
 }
 .caixa-inputs-telefone{
 
     width: 100%;
 }
 .caixa-texto-telefone{
-    width: 500px;
+
+    width: 600px;
     padding: 90px;
 }
 .section-travel{
@@ -678,23 +709,25 @@ footer{
     align-items: center;
     flex-direction: column;
 }
-hr{
+.linha-footer{
     border: none;
     background-color: #EB662B;
     width: 1290px;
     height: 1px;
+    margin-top: 60px;
 }
 .caixa-info-footer{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 1320px;
+    margin-top: 60px;
 }
 .caixa-footer-numero{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-family: inter;
-    width: 1290px;
+    width: 1000px;
     font-weight: bold;
     font-size: 19px;
 }
@@ -733,7 +766,27 @@ hr{
     flex-direction: column;
     gap: 10px;
 }
-.caixa-pesquisa-email{
+.pesquisa-email{
+    border-radius: 15px;
+    border: 1px solid #E7E6E6;
+    background-color: white;
     width: 300px;
-    height: 60px;
+    height: 40px;
+    padding: 10px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rodape{
+    display: flex;
+    flex-direction: row;
+    width: 1500px;
+    font-family: inter;
+    font-size: 14px;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
 }
