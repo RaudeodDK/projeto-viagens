@@ -219,6 +219,14 @@ justify-content: center;
 
 
 }
+.lista-destinos{
+    margin-top: 50px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1320px;
+}
+
 .destinos{
     display: flex;
     flex-direction: column;
